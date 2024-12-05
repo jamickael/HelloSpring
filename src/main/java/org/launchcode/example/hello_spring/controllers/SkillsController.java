@@ -23,34 +23,34 @@ public class SkillsController {
     }
 
     @GetMapping("form")
-    @ResponseBody
     public String skillForm() {
-        String html = "<form method='post'>" +
-                "<H3>Please enter your name: </H3>" +
-                "<input type ='text' name='name' />" +
-                "<H3>First choice: </H3>" +
-                "<select name='lang1'>" +
-                "<option value='Java'>Java</option>" +
-                "<option value='CSS'>CSS</option>" +
-                "<option value='Python'>Python</option>" +
-                "</select>" +
-                "<H3>Second choice: </H3>" +
-                "<select name='lang2'>" +
-                "<option value='Java'>Java</option>" +
-                "<option value='CSS'>CSS</option>" +
-                "<option value='Python'>Python</option>" +
-                "</select>" +
-                "<H3>Third choice: </H3>" +
-                "<select name='lang3'>" +
-                "<option value='Java'>Java</option>" +
-                "<option value='CSS'>CSS</option>" +
-                "<option value='Python'>Python</option>" +
-                "</select>" +
-                "<br>" +
-                "<br>" +
-                "<button type='submit'>Submit</button>" +
-                "</form>";
-        return html;
+//        String html = "<form method='post'>" +
+//                "<H3>Please enter your name: </H3>" +
+//                "<input type ='text' name='name' />" +
+//                "<H3>First choice: </H3>" +
+//                "<select name='lang1'>" +
+//                "<option value='Java'>Java</option>" +
+//                "<option value='CSS'>CSS</option>" +
+//                "<option value='Python'>Python</option>" +
+//                "</select>" +
+//                "<H3>Second choice: </H3>" +
+//                "<select name='lang2'>" +
+//                "<option value='Java'>Java</option>" +
+//                "<option value='CSS'>CSS</option>" +
+//                "<option value='Python'>Python</option>" +
+//                "</select>" +
+//                "<H3>Third choice: </H3>" +
+//                "<select name='lang3'>" +
+//                "<option value='Java'>Java</option>" +
+//                "<option value='CSS'>CSS</option>" +
+//                "<option value='Python'>Python</option>" +
+//                "</select>" +
+//                "<br>" +
+//                "<br>" +
+//                "<button type='submit'>Submit</button>" +
+//                "</form>";
+        //return html;
+        return "form";
     }
 
     //    @PostMapping("form")
